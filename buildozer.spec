@@ -7,12 +7,12 @@ source.dir = .
 source.include_exts = py,png,jpg,kv
 source.exclude_dirs = bin,.buildozer,__pycache__
 
-requirements = python3,kivy==2.3.1,instaloader,requests,certifi,urllib3,pyjnius,androidstorage4kivy
+requirements = python3,kivy==2.3.1,instaloader,requests,certifi,urllib3,pyjnius,androidstorage4kivy, beautifulsoup4
 
 orientation = portrait
 fullscreen = 0
-icon.filename = %(source.dir)s/assets/icon.png
-presplash.filename = %(source.dir)s/assets/presplash.png
+icon.filename = icon.png
+presplash.filename = presplash.png
 android.presplash_color = #0E0E12
 
 android.permissions = INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
